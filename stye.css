@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+* {}
+
+* {
+
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik Marker Hatch', cursive;
+    text-align: center;
+
+
+}
+
+body {
+    background-image: url(./img/fon.jpg);
+    background-size: cover;
+
+}
+
+
+
+header {
+    font-size: 30px;
+    padding: 40px;
+    color: darkred;
+
+}
+
+main {
+    color: rgb(207, 218, 56);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    font-size: 25px;
+
+}
+
+.menu {
+    margin: auto;
+}
+
+.btn {
+    background-color: rgb(66, 63, 55);
+    color: rgb(83, 187, 23);
+    margin: 20px auto;
+    padding: 8px;
+    width: 250px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2;
+
+}
+
+.btn:hover {
+    scale: 1.1;
+
+    padding: 10px;
+
+}
+
+.game-header {
+    display: flex;
+    align-items: center;
+}
+
+.reset {
+    width: 150px;
+}
+
+.lvl {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.null {
+    padding-top: 0;
+}
+
+.game-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+
+}
+
+.card {
+    width: 160px;
+    height: 270px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+    transition: 0.5;
+}
+
+.rotate {
+    transform: perspective(160px) rotatey(180deg);
+    transition: 0.5s;
+
+}
+
+
+.model {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.context {
+    font-size: 40;
+}

@@ -1,4 +1,4 @@
-import { createCards } from "./cards.js";
+import { createCards, fon } from "./cards.js";
 import { createMenu } from "./createMenu.js";
 
 
@@ -15,6 +15,9 @@ const gameWin = () => {
 
 
 export const createField = (lvl) => {
+	const body = document.querySelector("body");
+	body.style.backgroundImage = `url(${fon[1]})`;
+
 	let statusGame = true;
 
 

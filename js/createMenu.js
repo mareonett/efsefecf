@@ -1,6 +1,11 @@
-import { createField } from "./createField.js";
+import { fon } from "./cards.js";
+import { createField} from "./createField.js";
 
 export const createMenu = () => {
+
+	const body = document.querySelector("body");
+	body.style.backgroundImage = `url(${fon[0]})`;
+
 	const main = document.querySelector("main");
 	main.classList.remove("null");
 

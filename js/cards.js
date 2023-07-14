@@ -10,7 +10,7 @@ export const cards = [
 	"../img/rubashka.jpg"
 ];
 
-const fon = [
+export const fon = [
 	"../img/fon.jpg",
 	"../img/fon2.png",
 ]
